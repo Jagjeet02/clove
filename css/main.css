@@ -1,0 +1,352 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 56px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 1440px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+.label {
+  color: #F8943F;
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1500px !important;
+    width: 100%;
+  }
+  .nav_container {
+    max-width: 1540px !important;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1800px !important;
+    width: 100%;
+  }
+  .nav_container {
+    max-width: 1840px !important;
+    width: 100%;
+  }
+}
+header {
+  background-color: #FFF1E6;
+}
+header nav .custom_nav ul .nav-item .nav-link {
+  font-size: 22px;
+  color: #464646;
+}
+@media screen and (max-width: 1600px) {
+  header nav .custom_nav ul .nav-item .nav-link {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header nav .custom_nav ul .nav-item .nav-link {
+    font-size: 14px;
+  }
+}
+header nav .custom_nav ul .nav-item .book_appointment {
+  color: #FFFFFF;
+  background-color: #F8943F;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 22px;
+}
+@media screen and (max-width: 1440px) {
+  header nav .custom_nav ul .nav-item .book_appointment {
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header nav .custom_nav ul .nav-item .book_appointment {
+    font-size: 14px;
+    border-radius: 20px;
+  }
+}
+header nav .custom_nav ul .nav-item .help_button {
+  color: #FFFFFF;
+  background-color: #F8943F;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 22px;
+  background-color: #FFF1E6;
+  color: #4D2C19;
+  border: 1px solid #F8943F;
+}
+@media screen and (max-width: 1440px) {
+  header nav .custom_nav ul .nav-item .help_button {
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header nav .custom_nav ul .nav-item .help_button {
+    font-size: 14px;
+    border-radius: 20px;
+  }
+}
+
+.hero_section {
+  background-color: #B5C1A6;
+}
+.hero_section .content {
+  padding-block: 200px;
+}
+@media screen and (max-width: 1600px) {
+  .hero_section .content {
+    padding-block: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero_section .content {
+    padding-block: 50px;
+  }
+}
+.hero_section .content h1 {
+  color: #303030;
+}
+.hero_section .content h3 {
+  color: #464646;
+  font-weight: 400;
+}
+.hero_section .content h3:nth-of-type(2) {
+  color: #303030;
+  font-weight: 700;
+}
+.hero_section .content .buy_now {
+  color: #FFFFFF;
+  background-color: #F8943F;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 22px;
+  padding-inline: 150px;
+  margin-top: 60px;
+}
+@media screen and (max-width: 1440px) {
+  .hero_section .content .buy_now {
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero_section .content .buy_now {
+    font-size: 14px;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .hero_section .content .buy_now {
+    padding-inline: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero_section .content .buy_now {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero_section .content .buy_now {
+    width: 100%;
+  }
+}
+.hero_section .image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.hero_section .image img {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  bottom: 0;
+  left: -8%;
+}
+@media screen and (max-width: 769px) {
+  .hero_section .image img {
+    position: static;
+    height: 100%;
+  }
+}
+
+.world_class_clinic {
+  padding-block: 50px;
+}
+.world_class_clinic .right {
+  width: 100%;
+}
+.world_class_clinic .right .rating {
+  width: 50%;
+  padding-right: 20px;
+}
+.world_class_clinic .right .input_buttons {
+  width: 50%;
+  border-left: 1px solid #F8943F;
+  padding-left: 20px;
+}
+.world_class_clinic .right .input_buttons input {
+  color: #FFFFFF;
+  background-color: #F8943F;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 22px;
+  background-color: #FFFFFF;
+  border: 1px solid #464646;
+  width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .world_class_clinic .right .input_buttons input {
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .world_class_clinic .right .input_buttons input {
+    font-size: 14px;
+    border-radius: 20px;
+  }
+}
+.world_class_clinic .right .input_buttons button {
+  color: #FFFFFF;
+  background-color: #F8943F;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 22px;
+  width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .world_class_clinic .right .input_buttons button {
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .world_class_clinic .right .input_buttons button {
+    font-size: 14px;
+    border-radius: 20px;
+  }
+}
+
+.dental_treatment {
+  padding-block: 80px;
+  background-color: #FFF1E6;
+}
+.dental_treatment h3 {
+  max-width: 928px;
+  text-align: center;
+}
+.dental_treatment .card {
+  background-color: #FFFFFF;
+  padding: 8px;
+  margin-bottom: 10px;
+  min-height: 180px;
+  margin-block: 15px;
+}
+.dental_treatment .card .image {
+  margin: auto;
+}
+.dental_treatment .card .title {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.dental_treatment a {
+  text-decoration-color: black;
+}
+.dental_treatment a .explore {
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
+.dental_treatment a .explore img {
+  margin-inline: 10px;
+}
+
+.expert_guidance {
+  padding-block: 100px;
+}
+.expert_guidance .form {
+  background-color: #FFF1E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.expert_guidance .safety_protocols {
+  position: relative;
+}/*# sourceMappingURL=main.css.map */

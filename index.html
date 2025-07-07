@@ -1,17 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <header>
-        <nav>
-            <div class="container">
-                
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container nav_container">
+                <a class="navbar-brand" href="#"><img src="images/clove logo.png" alt="clove_logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse custom_nav  justify-content-end align-items-center"
+                    id="navbarNavDropdown">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Treatments
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dental Plans
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Our Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Find a Clinic</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#"><button class="book_appointment">
+                                    <img src="images/book_appoint.png" alt="logo" class="me-1"> Book Appointment
+                                </button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><button class="help_button">
+                                    <img src="images/help.png" alt="logo" class="me-1"> Help?
+                                </button></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
+
+    <section class="hero_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="content">
+                        <h1>Advance Dental Health Plan</h1>
+                        <h3>Dental care worth ₹8,000/-</h3>
+                        <h3>only at ₹550/-</h3>
+                        <button class="buy_now">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="image">
+                        <img src="images/hero_section_banner.png" alt="banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="world_class_clinic">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <h3><span class="label">450+</span> World Class Clinic</h3>
+                    <h4>Manned by 1200+ Super Specialists</h4>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="right d-flex align-items-center gap-2">
+                        <div class="rating d-flex gap-4 align-self-end justify-content-end">
+                            <div class="image"><img src="images/google.png" alt=""></div>
+
+                            <div class="content">
+                                <div class="rate"><img src="images/star.png" alt=""><strong>4.9/5</strong></div>
+                                <h4 class="label">1.5 Lakh+</h4>
+                                <span>5 star Ratings</span>
+                            </div>
+                        </div>
+                        <div class="input_buttons ms-auto d-flex flex-column gap-2">
+                            <input type="text" placeholder="Select your City">
+                            <button>Locate nearest clove clinic</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dental_treatment">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <h3>All dental issues from simple cleaning
+                        to full mouth rehabilitation under one roof</h3>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/root_canal.png" alt=""></div>
+                        <div class="title">Root Canal Treatment</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/braces.png" alt=""></div>
+                        <div class="title">Braces</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/teeth_whitining.png" alt=""></div>
+                        <div class="title">Teeth Whitening</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/insvisible_braces.png" alt=""></div>
+                        <div class="title">Invisivle Braces</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/dental_implants.png" alt=""></div>
+                        <div class="title">Dental Implants</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/smile_makeover.png" alt=""></div>
+                        <div class="title">Smile Makeover</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/root_canal.png" alt=""></div>
+                        <div class="title">Kids Denstistry</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/root_canal.png" alt=""></div>
+                        <div class="title">Gum Treatment</div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/root_canal.png" alt=""></div>
+                        <div class="title">Wisdom tooth</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/root_canal.png" alt=""></div>
+                        <div class="title">Laser/Painless Dentistry</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/root_canal.png" alt=""></div>
+                        <div class="title">Crowns & Bridges</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <div class="image"><img src="images/treatment/root_canal.png" alt=""></div>
+                        <div class="title">Dentures</div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <a href="#">
+                        <div class="explore"><img src="images/Search.png" alt="search">Explore treatment<img
+                                src="images/arrow.png" alt="arrow_button"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="expert_guidance">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="form">
+                        <form action="">
+                            <h3>Expert Guidance for Healthy Smiles</h3>
+                            <p>Contact Now</p>
+
+                            <input type="text" placeholder="Name">
+                            <input type="number">
+                            <input type="text" placeholder="Select Concern">
+                            <button class="primary_button">Book A Free Consultation</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col-12">
+                           <div class="safety_protocols">
+                             <h2>10X Safety Protocols</h2>
+                             <h5>Monitored by DORI</h5>
+                             <p>Artificial Intelligence System</p>
+                           </div>
+                        </div>
+                        <div class="col-6"></div>
+                        <div class="col-6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
